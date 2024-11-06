@@ -32,3 +32,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm test
+    - uses: actions/upload-artifact@v4
+      with:
+        name: mochawesome.html
+        path: path/to/artifact/ # or path/to/artifact
