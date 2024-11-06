@@ -35,4 +35,4 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: mochawesome
-        path: /home/runner/work/testwarez2024-jz/testwarez2024-jz/mochawesome-report/mochawesome
+        path: /home/runner/work/testwarez2024-jz/testwarez2024-jz/mochawesome-report/
