@@ -6,6 +6,8 @@ name: API_TESTS CI
 env:
   SECRET_PASSWORD: ${{ secrets.SECRET_PASSWORD }}
 on:
+  schedule:
+    - cron: '*/10 * * * *' # every ten minutes
   push:
     branches: [ "main" ]
   pull_request:
