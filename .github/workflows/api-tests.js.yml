@@ -34,5 +34,5 @@ jobs:
     - run: npm test
     - uses: actions/upload-artifact@v4
       with:
-        name: mochawesome.html
+        name: mochawesome
         path: /home/runner/work/testwarez2024-jz/testwarez2024-jz/mochawesome-report/ # or path/to/artifact
